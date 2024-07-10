@@ -20,3 +20,6 @@ $HOME
 
 # Apple files
 *.icloud
+
+# Rust files
+*/target/*
