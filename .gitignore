@@ -1,0 +1,22 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# VSCode files
+.DS_Store
+.vs
+*.code-workspace
+*.vscode
+
+# Vim files
+tags
+*.swp
+$HOME
+
+# Apple files
+*.icloud
