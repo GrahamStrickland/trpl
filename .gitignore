@@ -23,3 +23,4 @@ $HOME
 
 # Rust files
 */target/*
+*.lock
