@@ -13,10 +13,8 @@ fn main() {
 }
 
 fn route(ip_kind: IpAddr) {
-    // match ip_kind {
-    //     | IpAddrKind::V4
-    //         println!("127.0.0.1");
-    //     | IpAddrKind::V6 {
-    //     println!("2001:db8::8a2e:370:7334");
-    // }
+    match ip_kind {
+        IpAddr::V4(_, _, _, _) => println!("IPv4"),
+        IpAddr::V6(_) => println!("IPv6"),
+    }
 }
