@@ -5,7 +5,14 @@ fn main() {
     let mut departments = HashMap::new();
 
     loop {
-        let department = String::from("Engineering");
+        println!("Please enter a department to which you would like to add an employee.");
+
+        let mut department_line = String::new();
+        io::stdin()
+            .read_line(&mut department_line)
+            .expect("Failed to read line");
+
+        let department = String::from(department_line.trim_ascii());
         println!("Please enter an employee to add to {department}.");
 
         let mut employee_line = String::new();
