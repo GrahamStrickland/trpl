@@ -22,5 +22,4 @@ $HOME
 *.icloud
 
 # Rust files
-*/target/*
-
+**/target/*
