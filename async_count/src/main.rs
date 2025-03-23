@@ -17,5 +17,5 @@ fn main() {
         };
 
         trpl::join(fut1, fut2).await;
-    })
+    });
 }
